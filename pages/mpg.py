@@ -62,7 +62,3 @@ st.plotly_chart(pxh)
 fig, ax = plt.subplots(figsize=(10,3))
 sns.scatterplot(data=mpg, x="mpg", y="weight", hue="origin")
 st.pyplot(fig)
-
-fig, ax = plt.subplots(figsize=(10,3))
-sns.lmplot(data=mpg, x="mpg", y="weight", hue="origin")
-st.pyplot(fig)
